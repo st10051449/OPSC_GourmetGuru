@@ -1,0 +1,178 @@
+<resources>
+    <!--other-->
+    <string name="app_name" translatable="false">GourmetGuru-OPSCPOE</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="default_web_client_id" translatable="false">381636906301-rtmeb4afv74tk7lrlntak3651jc1e4c0.apps.googleusercontent.com</string>
+
+
+    <!--for change language page-->
+    <string name="changeLangFragHeading">Change Language</string>
+    <string name="txtSelect_a_language">Select a Language</string>
+    <string name="btnSave">Save</string>
+    <string name="spinEnglishOption">English</string>
+    <string name="spinAfrikaansOption">Afrikaans</string>
+    <string name="spinPortugueseOption">Portuguese</string>
+    <string name="spinZuluOption">Zulu</string>
+
+
+
+    <!--Home page-->
+    <string name="HomeHeading">Home</string>
+    <string name="txtWelcome">Welcome!</string>
+    <string name="txtLebanese_cuisine">Lebanese Cuisine</string>
+    <string name="txtItalian_cuisine">Italian Cuisine</string>
+    <string name="txtMexican_cuisine">Mexican Cuisine</string>
+    <string name="txtPortuguese_cuisine">Portuguese Cuisine</string>
+    <string name="txtFrench_cuisine">French Cuisine</string>
+    <string name="txtJapanese_cuisine">Japanese Cuisine</string>
+    <string name="txtSouth_african_cuisine">South African Cuisine</string>
+    <string name="txtIndian_cuisine">Indian Cuisine</string>
+
+    <!--My Profile page-->
+    <string name="txtName">Name:</string>
+    <string name="txtEmail">Email:</string>
+    <string name="myprofileHeading">My\nProfile</string>
+
+    <!--Search Recipe Page-->
+    <string name="search_recipeHeading">Search Recipe</string>
+    <string name="txtSearch">Search</string>
+    <string name="btnFilter">Filter</string>
+    <string name="txtResults">Results:</string>
+    <!--DARKMODE TEST-->
+    <string name="DarkMode">Dark Mode</string>
+
+    <!--Settings Page-->
+    <string name="settingsHeeading">Settings</string>
+    <string name="txtChange_language">Change Language</string>
+    <string name="txtChange_password">Change Password</string>
+    <string name="txtLogout">Logout</string>
+    <string name="txtDelete_account">Delete Account</string>
+
+    <!--Change Password Page-->
+    <string name="change_passwordHeading">Change Password</string>
+    <string name="txtCurrent_password">Current Password</string>
+    <string name="txtNew_password">New Password</string>
+    <string name="txtConfirm_new_password">Confirm New Password</string>
+    <string name="txtChange">Change</string>
+
+    <!--delete account page-->
+    <string name="delete_accountHeading">Delete Account</string>
+    <string name="txtPlease_enter_current_password">Please enter your current password to delete your account:</string>
+    <string name="txtWarning">Warning! This action can’t \nbe undone.</string>
+    <string name="txtDelete">Delete</string>
+
+    <!--Login page-->
+    <string name="loginHeading">Login</string>
+    <string name="txtEmail_address">Email Address:</string>
+    <string name="txtPassword">Password:</string>
+    <string name="txtLogin_with">Login With</string>
+    <string name="txtNo_account_get_one_here">No Account? Get One Here!</string>
+
+    <!--Registeration page-->
+    <string name="registrationHeading">Registration</string>
+    <string name="txtFirst_name">First Name:</string>
+    <string name="txtSurname">Surname:</string>
+    <string name="txtRegister">Register</string>
+
+    <!--api cuisine recipe details page-->
+    <string name="txtDuration">Duration</string>
+    <string name="txtIngredients">Ingredients:</string>
+    <string name="txtMethod">Method:</string>
+
+    <!--add recipe to collection page-->
+    <string name="add_recipeHeading">Add \n Recipe</string>
+
+    <!--add your recipe fragment-->
+    <string name="my_recipes">My Recipes</string>
+    <string name="txtAdd_your_recipe">Add Your Recipe</string>
+    <string name="txtRecipe_name">Recipe Name:</string>
+    <string name="txtHours">Hours</string>
+    <string name="txtMinutes">Minutes</string>
+    <string name="txtIngredient_name">Ingredient Name:</string>
+    <string name="txtIngredient_amount">Ingredient Amount:</string>
+    <string name="txtAdd_ingredient">Add Ingredient</string>
+    <string name="txtEnter_next_step">Enter next step:</string>
+    <string name="txtAdd_step">Add Step</string>
+    <string name="txtLock_recipe">Lock Recipe?</string>
+
+    <!--cuisine pages headings-->
+    <string name="txtFrench_recipes">French Recipes</string>
+    <string name="txtIndian_recipes">Indian Recipes</string>
+    <string name="txtItalian_recipes">Italian Recipes</string>
+    <string name="txtJapanese_recipes">Japanese Recipes</string>
+    <string name="txtLebanese_recipes">Lebanese Recipes</string>
+    <string name="txtMexican_recipes">Mexican Recipes</string>
+    <string name="txtPortuguese_recipes">Portuguese Recipes</string>
+    <string name="south_african_recipes">South African Recipes</string>
+
+    <!--Meal plan page-->
+    <string name="txtMeal_plan">Meal Plan</string>
+    <string name="txtMonday">Monday</string>
+    <string name="txtTuesday">Tuesday</string>
+    <string name="txtWednesday">Wednesday</string>
+    <string name="ttxThursday">Thursday</string>
+    <string name="txtFriday">Friday</string>
+    <string name="txtSaturday">Saturday</string>
+    <string name="txtSunday">Sunday</string>
+    <string name="txtClick_to_view_your_shopping_list">Click to view your shopping list!</string>
+
+    <!--meal plan day page-->
+    <string name="txtPlease_choose_your_meals">Please choose your meals:</string>
+    <string name="txtBreakfast">Breakfast</string>
+    <string name="no_breakfast_has_been_selected_yet">No breakfast has been selected yet.</string>
+    <string name="lunch">Lunch</string>
+    <string name="no_lunch_has_been_selected_yet">No lunch has been selected yet.</string>
+    <string name="dinner">Dinner</string>
+    <string name="no_dinner_has_been_selected_yet">No dinner has been selected yet.</string>
+
+    <!--meal plan time page-->
+    <string name="txtBreakfast1">Breakfast 1</string>
+    <string name="breakfast_2">Breakfast 2</string>
+    <string name="breakfast_3">Breakfast 3</string>
+    <string name="breakfast_4">Breakfast 4</string>
+
+    <!--my recipes page-->
+    <string name="add_your_recipes">Add Your Recipes</string>
+    <string name="view_your_recipes">View Your Recipes</string>
+    <string name="create_new_collection">Create New Collection</string>
+    <string name="view_your_collections">View Your Collections</string>
+    <string name="timer">Timer</string>
+
+    <!--new collection page-->
+    <string name="new_collection">New Collection</string>
+    <string name="please_enter_the_name_of_your_new_collection">Please enter the name of your new collection:</string>
+
+    <!--select meal page-->
+    <string name="select_nmeal">Select \nMeal</string>
+
+    <!--shopping list page-->
+    <string name="shopping_list">Shopping List</string>
+    <string name="filter_by">Filter By:</string>
+    <string name="day_of_the_week">Day of the Week</string>
+    <string name="alphabetical_order">Alphabetical Order</string>
+
+    <!--timer page-->
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="end_alarm">End Alarm</string>
+
+    <!--view collection page-->
+    <string name="view_collection">View Collection</string>
+    <string name="there_are_no_recipes_in_this_collection">There are no recipes in this collection</string>
+
+    <!--view collections page-->
+    <string name="view_collections">View Collections</string>
+
+    <!--my recipes page-->
+    <string name="no_recipes_to_display">No Recipes to Display</string>
+    <string name="add_recipe">Add Recipe</string>
+
+    <!--profile picture page pt 2-->
+    <string name="update_profile_picture">Update Profile Picture</string>
+
+    <!--settings page pt 2-->
+    <string name="turn_off_notifications">Turn off notifications</string>
+
+
+</resources>

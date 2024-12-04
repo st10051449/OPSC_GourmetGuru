@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "381636906301",
+    "firebase_url": "https://gourmetguru-23c0a-default-rtdb.firebaseio.com",
+    "project_id": "gourmetguru-23c0a",
+    "storage_bucket": "gourmetguru-23c0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381636906301:android:242028641086f2e82a8954",
+        "android_client_info": {
+          "package_name": "com.opsc7311poe.gourmetguru_opscpoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381636906301-3orqu4tc4109pobg9t6sj0vl5nvcgrtt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "29309c55c8dd2543a53c1d6d2d1dfb72962a58b8"
+          }
+        },
+        {
+          "client_id": "381636906301-4hf6iurf05kmmmrfnnftlnvckgs3sft5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "36285808894a58048bc804f71b1abd28677715c2"
+          }
+        },
+        {
+          "client_id": "381636906301-7kupolmm3jgn98qrrnm1i0f4hqlto3f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "f0f56d3844d3be0eb6460f4bf5ea40c89bc6d848"
+          }
+        },
+        {
+          "client_id": "381636906301-dseor7cqcgp77tqet5umiqsb8prrb5c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "87460fe0198a81e6c956f976a9cb3041c16f116e"
+          }
+        },
+        {
+          "client_id": "381636906301-jhnkqaa6pem2j1cb5lthjvisu3is8u4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "705f1061aff260923a009f46b87f5ff567963e62"
+          }
+        },
+        {
+          "client_id": "381636906301-t3g7rf6t3paok4l02mdoosehq6tqo6g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opsc7311poe.gourmetguru_opscpoe",
+            "certificate_hash": "ced3711af1ed03f1303b263c93f80ecd5a8b4011"
+          }
+        },
+        {
+          "client_id": "381636906301-rtmeb4afv74tk7lrlntak3651jc1e4c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFiGkaoMbgBldPxvhCs8x-yR433n9hSqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381636906301-rtmeb4afv74tk7lrlntak3651jc1e4c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

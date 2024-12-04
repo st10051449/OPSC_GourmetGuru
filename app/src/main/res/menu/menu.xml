@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/navMyRecipe"
+    android:icon="@drawable/vectorwhiskbowl"
+    android:title="My Recipes"
+    />
+
+    <item
+        android:id="@+id/navMealPlan"
+        android:icon="@drawable/vectorplate"
+        android:title="Meal Plan"
+        />
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/vectorhome"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/navSearch"
+        android:icon="@drawable/vectorsearch"
+        android:title="Search"
+        />
+    <item
+        android:id="@+id/navMyProfile"
+        android:icon="@drawable/vectormyprofile"
+        android:title="My Profile"
+        />
+</menu>

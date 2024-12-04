@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/animatedclock">
+    <target
+        android:animation="@animator/hours_rotation"
+        android:name="hours" />
+
+    <target
+        android:animation="@animator/minutes_rotation"
+        android:name="minutes" />
+
+    <property
+        android:propertyName="rotation"
+        android:duration="1"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:repeatCount="infinite"
+        android:repeatMode="restart" />
+
+</animated-vector>

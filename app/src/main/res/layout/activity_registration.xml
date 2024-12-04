@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.006"
+                app:srcCompat="@drawable/cherryhd" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cherry_swash_bold"
+                android:paddingBottom="18dp"
+                android:text="@string/registrationHeading"
+                android:textAlignment="center"
+                android:textColor="@color/ggRed"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.979" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="392dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textViewA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/lora"
+                            android:paddingLeft="25dp"
+                            android:text="@string/txtName"
+                            android:textColor="@color/ggRed"
+                            android:textSize="28sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtRName"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/textboxdesign"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"
+                            android:hint="@string/txtFirst_name"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/lora"
+                            android:paddingLeft="25dp"
+                            android:text="@string/txtSurname"
+                            android:textColor="@color/ggRed"
+                            android:textSize="28sp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/txtRSurname"
+                            android:layout_width="320sp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/textboxdesign"
+                            android:inputType="text"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"
+                            android:hint="@string/txtSurname"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/lora"
+                            android:paddingLeft="25dp"
+                            android:text="@string/txtEmail"
+                            android:textColor="@color/ggRed"
+                            android:textSize="28sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtREmail"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/textboxdesign"
+                            android:inputType="text"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"
+                            android:hint="@string/txtEmail"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lora"
+                            android:paddingLeft="25dp"
+                            android:text="@string/txtPassword"
+                            android:textColor="@color/ggRed"
+                            android:textSize="28sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtRPassword"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/textboxdesign"
+                            android:inputType="textPassword"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"
+                            android:hint="@string/txtPassword"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="20dp">
+
+                        <Button
+                            android:id="@+id/btnRegister"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/ggRed"
+                            android:fontFamily="@font/lemon"
+                            android:gravity="center"
+                            android:text="@string/txtRegister"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+</FrameLayout>
